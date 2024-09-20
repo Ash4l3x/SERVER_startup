@@ -34,6 +34,7 @@ class Custom_Client_Interface(tk.LabelFrame):
     def __init__(self, master, *args, **kwargs):
         super().__init__(master, *args, **kwargs)
 
+
 class Interface:
     ipconfig_controller = None
     server_controller = None
